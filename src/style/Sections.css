@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-content: center;
     margin-top: 2rem;
+    min-width: 60vw;
     max-width: 1300px;
 }
 
@@ -35,15 +36,17 @@
 }
 
 #problem-image {
-    height: 200px;
-    width: 800px;
+    min-width: 200px;
+    max-width: 20vw;
+    height: 220px;
     background-image: url(./images/problem.png);
     background-size: cover;
 }
 
 #solution-image {
-    height: 200px;
-    width: 600px;
+    min-width: 200px;
+    max-width: 20vw;
+    height: 250px;
     background-image: url(./images/solution.png);
     background-size: cover;
     transform: rotate(10deg);
