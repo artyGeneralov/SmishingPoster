@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/SmishingPoster/static/css/main.afbd336a.css",
+    "main.js": "/SmishingPoster/static/js/main.42c32178.js",
+    "static/media/demo.mp4": "/SmishingPoster/static/media/demo.2372def5313f62c9eb67.mp4",
+    "static/media/step-three-image.png": "/SmishingPoster/static/media/step-three-image.2589f143eb82b2f34916.png",
+    "static/media/step-two-image.png": "/SmishingPoster/static/media/step-two-image.3d13ef516028c81212ea.png",
+    "static/media/problem.png": "/SmishingPoster/static/media/problem.5702a4405c8f563c0cbe.png",
+    "static/media/step-one-image.png": "/SmishingPoster/static/media/step-one-image.c5a70764b46c95dde6c4.png",
+    "static/media/solution.png": "/SmishingPoster/static/media/solution.0da052b890770b95be26.png",
+    "index.html": "/SmishingPoster/index.html",
+    "main.afbd336a.css.map": "/SmishingPoster/static/css/main.afbd336a.css.map",
+    "main.42c32178.js.map": "/SmishingPoster/static/js/main.42c32178.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afbd336a.css",
+    "static/js/main.42c32178.js"
+  ]
+}
