@@ -8,12 +8,9 @@ const How = () => {
                 <div className="content-left">
                     <h2>Step 1: Huristics</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Explain the heuristic algorithm we are using.
+
+                        Show how the weights of the heuristics are calculated.
                     </p>
                 </div>
                 <div className="content-image" id='step-one-image'></div>
@@ -23,25 +20,15 @@ const How = () => {
                 <div className="content-right">
                     <h2>Step 2: Machine Learning</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Talk about the LM model we are using and how it is trained.
                     </p>
                 </div>
             </div>
             <div className="content" id='step-three'>
                 <div className="content-left">
-                    <h2>Step 3: Sand Box</h2>
+                    <h2>Step 3: Link Analysis</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Show how the link analysis is done and how the results are calculated.
                     </p>
                 </div>
                 <div className="content-image" id='step-three-image'></div>

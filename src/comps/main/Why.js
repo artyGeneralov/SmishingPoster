@@ -8,12 +8,11 @@ const Why = () => {
                 <div className="content-left">
                     <h2>Problem</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Description of the problem we are trying to solve. 
+
+                        Talk about how smishing is a growing problem and how it is affecting people. 
+
+                        Talk about how people are not aware of the dangers of smishing and how they can be easily fooled.
                     </p>
                 </div>
                 <div className="content-image" id='problem-image'></div>
@@ -23,12 +22,11 @@ const Why = () => {
                 <div className="content-right">
                     <h2>Our Solution & Goals</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Description of our solution and goals. 
+
+                        Talk about how our solution can help people avoid being scammed by smishing. 
+
+                        Talk about the user-friendly approach and in a few short words about the underlying mechanism.
                     </p>
                 </div>
             </div>
