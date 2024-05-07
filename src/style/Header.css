@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue);
+    border-bottom: solid 3px var(--yellow);
+}
+
+.logo {
+    background-image: url(./images/sapir_logo_hw.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-right: solid 3px var(--yellow);
+}
+
+.header-text {
+    margin-left: 4rem;
+    color: white;
+}
+
+.header-text p {
+    margin: 0;
+    font-family: var(--main-font);
+}
+
+#title {
+    font-size: 3.2rem;
+    font-family: var(--logo-font);
+    font-weight: 400;
+    color: var(--yellow);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
