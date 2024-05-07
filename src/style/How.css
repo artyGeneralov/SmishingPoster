@@ -1,0 +1,188 @@
+.how {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incoming-text {
+    font-family: var(--navbar-font);
+    border: 2px solid var(--blue);
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#incoming-text-pic {
+    width: 80px;
+    height: 60px;
+    background-image: url(./images/incoming-text.jpg);
+    background-size: cover;
+}
+
+.sms {
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    width: 50%;
+    align-self: center;
+}
+
+.arrow-down {
+    color: var(--yellow);
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.report {
+    font-family: var(--navbar-font);
+    border: 2px solid var(--blue);
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#report-pic {
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/report.png);
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.report-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.report-points {
+    margin-left: 2rem;
+}
+
+.process {
+    border: 2px solid var(--blue);
+    border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.process h2 {
+    font-family: var(--navbar-font);
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.process h3 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.process p {
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.tech {
+    margin-top: 1.5rem;
+}
+
+.tech h2 {
+    text-align: center;
+}
+
+.tech span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.icon-icon {
+    font-size: 2.8rem;
+    color: var(--blue);
+    margin-bottom: 0.3rem;
+}
+
+.arrow-right {
+    color: var(--yellow);
+    font-size: 1.5rem;
+}
+
+.text-analysis,
+.url-analysis {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 2px var(--blue);
+}
+
+#text-analysis-pic {
+    width: 160px;
+    height: 200px;
+    background-image: url(./images/book.jpg);
+    background-size: cover;
+    border-right: solid 2px var(--blue);
+}
+
+.text-analysis-text {
+    margin-right: 2rem;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.text-analysis-text p {
+    margin-left: 3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.url-analysis-text {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#url-analysis-pic {
+    border-left: solid 2px var(--blue);
+    width: 300px;
+    height: 200px;
+    background-image: url(./images/link.jpg);
+    background-size: cover;
+}

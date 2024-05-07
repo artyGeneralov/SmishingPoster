@@ -1,37 +1,82 @@
 
 import '../../style/Sections.css'
+import '../../style/How.css'
+import { PiArrowFatLinesDownDuotone } from "react-icons/pi";
+import { GoChevronRight } from "react-icons/go";
+import { FaPython } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaAndroid } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
+import { GrMysql } from "react-icons/gr";
+import { SiRabbitmq } from "react-icons/si";
 
 const How = () => {
     return (
         <div className="how">
-            <div className="content" id='step-one'>
-                <div className="content-left">
-                    <h2>Step 1: Huristics</h2>
-                    <p>
-                        Explain the heuristic algorithm we are using.
-
-                        Show how the weights of the heuristics are calculated.
-                    </p>
-                </div>
-                <div className="content-image" id='step-one-image'></div>
+            <div className='incoming-text'>
+                <div className='how-pic' id='incoming-text-pic'></div>
+                <div className='sms'>Smartphone Recives SMS</div>
             </div>
-            <div className="content" id='step-two'>
-                <div className="content-image" id='step-two-image'></div>
-                <div className="content-right">
-                    <h2>Step 2: Machine Learning</h2>
-                    <p>
-                        Talk about the LM model we are using and how it is trained.
-                    </p>
+            <PiArrowFatLinesDownDuotone className='arrow-down' />
+            <div className='process'>
+                <div className='text-analysis'>
+                    <div className='how-pic' id='text-analysis-pic'></div>
+                    <div className='text-analysis-text'>
+                        <h2>Text Analysis</h2>
+                        <h3><GoChevronRight className='arrow-right' />Huristics</h3>
+                        <p>1. Basic Preset Huristics</p>
+                        <p>2. Neural Network</p>
+                        <h3><GoChevronRight className='arrow-right' />Machine Learning</h3>
+                    </div>
+                </div>
+                <div className='url-analysis'>
+                    <div className='url-analysis-text'>
+                        <h2>Link Analysis</h2>
+                        <h3><GoChevronRight className='arrow-right' />Link Analysis</h3>
+                    </div>
+                    <div className='how-pic' id='url-analysis-pic'></div>
+                </div>
+                <div className='tech'>
+                    <h2>Tech Stack</h2>
+                    <span>
+                        <p className='icon'>
+                            <FaPython className='icon-icon' />
+                            Python
+                        </p>
+                        <p className='icon'>
+                            <FaJava className='icon-icon' />
+                            Java
+                        </p>
+                        <p className='icon'>
+                            <FaAndroid className='icon-icon' />
+                            Android
+                        </p>
+                        <p className='icon'>
+                            <IoLogoFirebase className='icon-icon' />
+                            FCM
+                        </p>
+                        <p className='icon'>
+                            <GrMysql className='icon-icon' />
+                            MySQL
+                        </p>
+                        <p className='icon'>
+                            <SiRabbitmq className='icon-icon' />
+                            RabbitMQ
+                        </p>
+                    </span>
                 </div>
             </div>
-            <div className="content" id='step-three'>
-                <div className="content-left">
-                    <h2>Step 3: Link Analysis</h2>
-                    <p>
-                        Show how the link analysis is done and how the results are calculated.
-                    </p>
+            <PiArrowFatLinesDownDuotone className='arrow-down' />
+            <div className='report'>
+                <div className='how-pic' id='report-pic'></div>
+                <div>
+                    <div className='report-header'>App Gives User Report:</div>
+                    <div className='report-points'>
+                        <p>1. General Calculated Score (0 to 100)</p>
+                        <p>2. Detailed Report</p>
+                        <p>3. Sreenshot from Link </p>
+                    </div>
                 </div>
-                <div className="content-image" id='step-three-image'></div>
             </div>
         </div>
     )
