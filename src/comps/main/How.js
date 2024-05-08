@@ -24,9 +24,10 @@ const How = () => {
                     <div className='text-analysis-text'>
                         <h2>Text Analysis</h2>
                         <h3><GoChevronRight className='arrow-right' />Huristics</h3>
-                        <p>1. Basic Preset Huristics</p>
-                        <p>2. Neural Network</p>
+                        <p>1. Algorithm to calculate score from heuristics</p>
+                        <p>2. Algorithm to calculate weights (NN??)</p>
                         <h3><GoChevronRight className='arrow-right' />Machine Learning</h3>
+                        <p> Fine tuned LM </p>
                     </div>
                 </div>
                 <div className='url-analysis'>
