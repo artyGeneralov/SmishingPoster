@@ -8,11 +8,15 @@ const About = () => {
                 <div className="content-left">
                     <h2>Problem</h2>
                     <p>
-                        Description of the problem we are trying to solve.
+                    <p>In the digital age, SMS phishing has become a prevalent threat.</p>
+                    These messages often <b><u>deceive users</u></b> into:
+                    <ul>
+                        <li><h3> revealing personal information,</h3></li>
+                        <li><h3>downloading malware,</h3></li>
+                        <li><h3>accessing phishing sites,</h3></li>
+                    </ul>
+<p>posing significant security risks to individuals and organizations.</p>
 
-                        Talk about how smishing is a growing problem and how it is affecting people.
-
-                        Talk about how people are not aware of the dangers of smishing and how they can be easily fooled.
                     </p>
                 </div>
                 <div className="content-image" id='problem-image'></div>
@@ -22,11 +26,15 @@ const About = () => {
                 <div className="content-right">
                     <h2>Our Solution & Goals</h2>
                     <p>
-                        Description of our solution and goals.
+                        We have developed an innovative Android application<br/> 
+                        designed to combat smishing by providing  <u>real-time analysis</u> of incoming messages.
+                        <h4><br/>Our application employs a multi-faceted approach:</h4>
+                        <ul>
+                            <li><strong>Heuristic Analysis</strong>: Utilizes a set of weighted heuristics to evaluate message characteristics.</li><br/>
+                            <li><strong>Semantic Analysis</strong>: Leverages a language model to classiffy messages based on their content.</li><br/>
+                            <li><strong>Link Analysis</strong>: Analyzes and verifies links within messages against known security databases.</li>
+                        </ul>
 
-                        Talk about how our solution can help people avoid being scammed by smishing.
-
-                        Talk about the user-friendly approach and in a few short words about the underlying mechanism.
                     </p>
                 </div>
             </div>

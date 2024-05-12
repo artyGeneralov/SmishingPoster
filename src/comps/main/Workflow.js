@@ -25,10 +25,13 @@ const Workflow = () => {
                     </div>
                     <div className='hidden-right'>
                         <h3><GoChevronRight className='arrow-right' />Huristics</h3>
-                        <p>1. Algorithm to calculate score from heuristics</p>
-                        <p>2. Algorithm to calculate weights (NN??)</p>
+                        <p>1. Does the message contain links?</p>
+                        <p>2. Are the links accessible / new?</p>
+                        <p>3. Does the message contain calls to action?</p>
+                        <p>4. Does the message contain references to money?</p>
+                        <p>5. Does the message contain a phone number?</p>
                         <h3><GoChevronRight className='arrow-right' />Machine Learning</h3>
-                        <p> Fine tuned LM </p>
+                        <p> Fine-tuned LM (BERT) that classifies messegas according to the content </p>
                     </div>
                 </div>
 
@@ -37,6 +40,8 @@ const Workflow = () => {
                 <div className='url-analysis'>
                     <div className='hidden-left'>
                         <h3><GoChevronRight className='arrow-right' />Link Analysis</h3>
+                        <p>1. Check link authenticity using VirusTotal API</p>
+                        <p>2. Retrieve screenshot of website using ***** API</p>
                     </div>
                     <div className='url-analysis-text'>
                         <h2>Link Analysis</h2>
