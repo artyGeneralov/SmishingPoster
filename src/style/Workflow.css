@@ -205,7 +205,7 @@
 
 .text-analysis:hover .hidden-right {
     display: block;
-    margin-top: 6rem;
+    margin-top: 10rem;
     margin-left: 28rem;
     background-color: white;
     animation: appear 0.5s ease forwards;
@@ -234,20 +234,25 @@
     padding-left: 3rem;
 }
 
+.url-analysis:hover .hidden-left p {
+    padding-left: 3rem;
+}
+
+
 .text-analysis:hover,
 .url-analysis:hover {
     background-color: var(--yellow);
 }
 
 .url-analysis:hover .hidden-left {
-    display: flex;
-    margin-left: -12.5rem;
+    display: block;
+    margin-left: -28rem;
     background-color: white;
     animation: appear 0.5s ease forwards;
     opacity: 0;
     z-index: 1;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     align-items: center;
     border-radius: 1rem;
     border-right: 1rem solid var(--blue);
@@ -257,7 +262,7 @@
     content: " ";
     position: absolute;
     top: 33%;
-    left: 105%;
+    left: 102%;
     margin-top: -15px;
     border-width: 25px;
     border-style: solid;

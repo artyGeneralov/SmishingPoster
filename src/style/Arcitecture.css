@@ -135,14 +135,15 @@
     border-left: solid 1rem var(--blue);
     padding: 1rem;
     margin-top: -26rem;
-    margin-left: 50rem;
+    margin-left: 46rem;
     animation: appear 0.5s ease forwards;
+    width: 20rem;
 }
 
 .android:hover+.hidden-right-android ::after {
     content: " ";
     position: absolute;
-    top: 10%;
+    top: 25%;
     right: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -161,7 +162,7 @@
 .flask:hover+.hidden-left-flask {
     display: block;
     margin-left: -50rem;
-    margin-top: -15rem;
+    margin-top: -18rem;
     background-color: white;
     animation: appear 0.5s ease forwards;
     padding: 1rem;
@@ -174,7 +175,7 @@
 .flask:hover+.hidden-left-flask ::after {
     content: " ";
     position: absolute;
-    top: 24%;
+    top: 40%;
     left: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -196,15 +197,16 @@
     border-radius: 1rem;
     border-left: solid 1rem var(--blue);
     padding: 1rem;
-    margin-top: -5.2rem;
-    margin-left: 50rem;
+    margin-top: -11.5rem;
+    margin-left: 46rem;
     animation: appear 0.5s ease forwards;
+    width: 20rem;
 }
 
 .rabbitmq:hover+.hidden-right-rabbitmq ::after {
     content: " ";
     position: absolute;
-    top: 45%;
+    top: 66%;
     right: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -222,8 +224,8 @@
 
 .analyzer:hover+.hidden-left-analyzer {
     display: block;
-    margin-left: -30rem;
-    margin-top: -8rem;
+    margin-left: -21rem;
+    margin-top: -16.5rem;
     background-color: white;
     animation: appear 0.5s ease forwards;
     padding: 1rem;
@@ -236,7 +238,7 @@
 .analyzer:hover+.hidden-left-analyzer ::after {
     content: " ";
     position: absolute;
-    top: 40%;
+    top: 68%;
     left: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -258,15 +260,15 @@
     border-radius: 1rem;
     border-left: solid 1rem var(--blue);
     padding: 1rem;
-    margin-top: -3rem;
-    margin-right: -26rem;
+    margin-top: -6rem;
+    margin-right: -22.5rem;
     animation: appear 0.5s ease forwards;
 }
 
 .link-analysis:hover+.hidden-right-link ::after {
     content: " ";
     position: absolute;
-    top: 25%;
+    top: 33%;
     right: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -288,15 +290,15 @@
     border-radius: 1rem;
     border-left: solid 1rem var(--blue);
     padding: 1rem;
-    margin-top: -2rem;
-    margin-right: -63rem;
+    margin-top: 1rem;
+    margin-right: -64.5rem;
     animation: appear 0.5s ease forwards;
 }
 
 .ml:hover+.hidden-right-ml ::after {
     content: " ";
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 103.5%;
     margin-top: -5px;
     border-width: 40px;
@@ -318,9 +320,10 @@
     border-radius: 1rem;
     border-top: solid 1rem var(--blue);
     padding: 1rem;
-    margin-top: 6.9rem;
-    margin-right: -18rem;
+    margin-top: 9rem;
+    margin-right: -20rem;
     animation: appear 0.5s ease forwards;
+    margin-bottom: 10rem;
 }
 
 .nn:hover+.hidden-bottom-nn ::after {
@@ -347,9 +350,10 @@
     border-radius: 1rem;
     border-top: solid 1rem var(--blue);
     padding: 1rem;
-    margin-top: 8.8rem;
-    margin-right: 3rem;
+    margin-top: 10.8rem;
+    margin-right: -2rem;
     animation: appear 0.5s ease forwards;
+    margin-bottom: 10rem;
 }
 
 .husitic:hover+.hidden-bottom-husitic ::after {
