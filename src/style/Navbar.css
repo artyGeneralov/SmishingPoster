@@ -27,4 +27,31 @@
 #chosen-page {
     border-bottom: solid var(--blue);
     color: var(--blue);
+    border-radius: 0.2rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 3rem;
+}
+
+.dropdown:hover+.dropdown-content {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.dropdown-content:hover {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.dropdown-content:hover+.dropdown,
+.dropdown:hover {
+    background-color: var(--blue);
+    color: white;
 }

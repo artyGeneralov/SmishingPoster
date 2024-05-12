@@ -1,0 +1,365 @@
+.arcitecture {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+.android,
+.flask,
+.rabbitmq {
+    width: 15rem;
+}
+
+.api,
+.fcm-callback {
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    width: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.android,
+.flask,
+.rabbitmq,
+.analyzer,
+.link-analysis,
+.husitic,
+.nn,
+.ml {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    border: solid 2px var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.android:hover,
+.flask:hover,
+.rabbitmq:hover,
+.analyzer:hover,
+.link-analysis:hover,
+.husitic:hover,
+.nn:hover,
+.ml:hover {
+    transform: scale(1.1);
+}
+
+.analyzer,
+.link-analysis {
+    width: 12rem;
+}
+
+.link-analysis {
+    margin-right: 4rem;
+}
+
+.archi-arrow {
+    color: var(--yellow);
+    font-size: 3rem;
+}
+
+.second-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fourth-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-layer .archi-arrow {
+    padding-top: 2rem;
+}
+
+.fith-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.fith-inner .archi-arrow {
+    font-size: 2.5rem;
+    padding-top: 0 !important;
+}
+
+.fith-layer .archi-arrow {
+    padding-top: 2rem;
+}
+
+#fith-layer-arrow-right {
+    margin-right: 4rem;
+}
+
+.sixth-layer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -22rem;
+}
+
+.husitic,
+.nn,
+.ml {
+    text-wrap: wrap;
+    max-width: 8rem;
+    margin-left: 0.8rem;
+}
+
+.hidden-right-android {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.android:hover+.hidden-right-android {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-left: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: -26rem;
+    margin-left: 50rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.android:hover+.hidden-right-android ::after {
+    content: " ";
+    position: absolute;
+    top: 10%;
+    right: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent var(--blue) transparent transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-left-flask {
+    position: absolute;
+    display: none;
+    text-align: left !important;
+}
+
+.flask:hover+.hidden-left-flask {
+    display: block;
+    margin-left: -50rem;
+    margin-top: -15rem;
+    background-color: white;
+    animation: appear 0.5s ease forwards;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    border-right: 1rem solid var(--blue);
+}
+
+.flask:hover+.hidden-left-flask ::after {
+    content: " ";
+    position: absolute;
+    top: 24%;
+    left: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--blue);
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-right-rabbitmq {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.rabbitmq:hover+.hidden-right-rabbitmq {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-left: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: -5.2rem;
+    margin-left: 50rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.rabbitmq:hover+.hidden-right-rabbitmq ::after {
+    content: " ";
+    position: absolute;
+    top: 45%;
+    right: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent var(--blue) transparent transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-left-analyzer {
+    position: absolute;
+    display: none;
+    text-align: left !important;
+}
+
+.analyzer:hover+.hidden-left-analyzer {
+    display: block;
+    margin-left: -30rem;
+    margin-top: -8rem;
+    background-color: white;
+    animation: appear 0.5s ease forwards;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    border-right: 1rem solid var(--blue);
+}
+
+.analyzer:hover+.hidden-left-analyzer ::after {
+    content: " ";
+    position: absolute;
+    top: 40%;
+    left: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--blue);
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-right-link {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.link-analysis:hover+.hidden-right-link {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-left: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: -3rem;
+    margin-right: -26rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.link-analysis:hover+.hidden-right-link ::after {
+    content: " ";
+    position: absolute;
+    top: 25%;
+    right: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent var(--blue) transparent transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-right-ml {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.ml:hover+.hidden-right-ml {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-left: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: -2rem;
+    margin-right: -63rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.ml:hover+.hidden-right-ml ::after {
+    content: " ";
+    position: absolute;
+    top: 25%;
+    right: 103.5%;
+    margin-top: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent var(--blue) transparent transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-bottom-nn {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.nn:hover+.hidden-bottom-nn {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-top: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: 6.9rem;
+    margin-right: -18rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.nn:hover+.hidden-bottom-nn ::after {
+    content: " ";
+    bottom: 103.5%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent var(--blue) transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.hidden-bottom-husitic {
+    position: absolute;
+    display: none;
+    text-align: left;
+}
+
+.husitic:hover+.hidden-bottom-husitic {
+    display: block;
+    background-color: white;
+    border-radius: 1rem;
+    border-top: solid 1rem var(--blue);
+    padding: 1rem;
+    margin-top: 8.8rem;
+    margin-right: 3rem;
+    animation: appear 0.5s ease forwards;
+}
+
+.husitic:hover+.hidden-bottom-husitic ::after {
+    content: " ";
+    bottom: 103.5%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent var(--blue) transparent;
+    position: absolute;
+    z-index: 0;
+}

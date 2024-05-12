@@ -1,6 +1,8 @@
 
-import Why from './main/Why'
-import How from './main/How'
+import About from './main/About'
+import Arcitecture from './main/Arcitecture'
+import Workflow from './main/Workflow'
+import ModelEval from './main/ModelEval'
 import Demo from './main/Demo'
 import Navbar from './Navbar'
 import { useState } from 'react';
@@ -8,10 +10,12 @@ import { useState } from 'react';
 import '../style/Main.css'
 
 const Main = () => {
-    const [chosenPage, changeChosenPage] = useState('why')
+    const [chosenPage, changeChosenPage] = useState('About')
     const pagesDict = {
-        'why': <Why />,
-        'how': <How />,
+        'About': <About />,
+        'Arcitecture': <Arcitecture />,
+        'Workflow': <Workflow />,
+        'ModelEval': <ModelEval />,
         'demo': <Demo />
     }
 
