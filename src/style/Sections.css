@@ -98,14 +98,15 @@
 }
 
 .tech {
-    margin-top: 0.5rem;
+    margin-top: 4rem;
     font-family: var(--main-font);
     font-weight: 400;
-    min-width: 60vw;
-    max-width: 1300px;
     margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2rem;
+    margin-right: 25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid var(--blue);
 }
 
 .tech h2 {
@@ -116,6 +117,7 @@
     letter-spacing: 1px;
     color: var(--blue);
     text-shadow: 1px 1px 2px var(--yellow);
+    padding-left: 3rem;
 }
 
 .tech span {
@@ -123,12 +125,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    border-radius: 1rem;
-    border: 2px solid var(--blue);
-    padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     width: 50%;
+    padding-left: 12rem;
+    padding-bottom: 2rem;
 }
 
 .icon {
