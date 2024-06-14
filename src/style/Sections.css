@@ -31,6 +31,23 @@
     text-align: left;
 }
 
+.content-right,
+.content-left {
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.content-left {
+    margin-bottom: 2rem;
+    padding-right: 20rem;
+}
+
 .content p {
     font-family: var(--main-font);
     text-wrap: wrap;
