@@ -110,8 +110,10 @@ const Arcitecture = () => {
                 </div>
                 <div className='ml'>Machine Learning Semantic Analyser</div>
                 <div className='hidden-right-ml'>
-                    <p>This module leverages a fine-tuned BERT model,<br/>
-                    to classify SMS messages based on their semantic content.
+                    <p>This module leverages a fine-tuned RoBERTa model,<br/>
+                    to capture the numerical,  deep semantic representation<br/>
+		    of the text of the message and train a Neural Network <br/>
+		    to classify SMS messages based on their semantic content.
                     </p>
 
                 </div>
