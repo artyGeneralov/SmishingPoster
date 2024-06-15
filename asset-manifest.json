@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmishingPoster/static/css/main.4421a716.css",
-    "main.js": "/SmishingPoster/static/js/main.43fbf1be.js",
+    "main.css": "/SmishingPoster/static/css/main.177be0fc.css",
+    "main.js": "/SmishingPoster/static/js/main.b3e0d910.js",
     "static/media/demo.mp4": "/SmishingPoster/static/media/demo.2372def5313f62c9eb67.mp4",
     "static/media/step-three-image.png": "/SmishingPoster/static/media/step-three-image.2589f143eb82b2f34916.png",
     "static/media/link.jpg": "/SmishingPoster/static/media/link.a219ec4fa76dbea77f11.jpg",
@@ -12,11 +12,11 @@
     "static/media/incoming-text.jpg": "/SmishingPoster/static/media/incoming-text.124649d4091bef5caf00.jpg",
     "static/media/report.png": "/SmishingPoster/static/media/report.186aee937b0c9c4b0fb6.png",
     "index.html": "/SmishingPoster/index.html",
-    "main.4421a716.css.map": "/SmishingPoster/static/css/main.4421a716.css.map",
-    "main.43fbf1be.js.map": "/SmishingPoster/static/js/main.43fbf1be.js.map"
+    "main.177be0fc.css.map": "/SmishingPoster/static/css/main.177be0fc.css.map",
+    "main.b3e0d910.js.map": "/SmishingPoster/static/js/main.b3e0d910.js.map"
   },
   "entrypoints": [
-    "static/css/main.4421a716.css",
-    "static/js/main.43fbf1be.js"
+    "static/css/main.177be0fc.css",
+    "static/js/main.b3e0d910.js"
   ]
 }
