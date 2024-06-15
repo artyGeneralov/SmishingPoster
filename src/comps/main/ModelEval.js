@@ -5,7 +5,7 @@ const ModelEval = () => {
         <div className="model-eval">
             <div className="huristic-model">
                 <h1>Heuristic Model</h1>
-                <h2>Key Smishing Features of the Heuristic Model:</h2>
+                <h2>&emsp; Key Smishing Features of the Heuristic Model:</h2>
                 <ul>
                     <li>Has link</li>
                     <li>Contains call to action</li>
@@ -14,7 +14,7 @@ const ModelEval = () => {
                     <li>Contains suspicious keywords </li>
                     <li>Message length (Quantitative only feature)</li>
                 </ul>
-                <h2>Model Evaluation:</h2>
+                <h2>&emsp; Model Evaluation:</h2>
                 <table>
                     <thead>
                         <th>Model</th>
@@ -43,7 +43,7 @@ const ModelEval = () => {
             </div>
             <div className="ll-model">
                 <h1>Large Language Model</h1>
-                <h2>Model Evaluation:</h2>
+                <h2>&emsp; Model Evaluation:</h2>
                 <table>
                     <thead>
                         <th>Model</th>
@@ -62,10 +62,10 @@ const ModelEval = () => {
                         </tr>
                         <tr>
                             <td className='focus'>Standalone RoBERTa</td>
-                            <td>0.2070</td>
+                            <td>0.21</td>
                             <td>1</td>
-                            <td>0.2071</td>
-                            <td className='focus'>0.3430</td>
+                            <td>0.21</td>
+                            <td className='focus'>0.34</td>
                         </tr>
                     </tbody>
                 </table>
