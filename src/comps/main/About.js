@@ -1,5 +1,11 @@
 
 import '../../style/Sections.css'
+import { FaPython } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaAndroid } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
+import { GrMysql } from "react-icons/gr";
+import { SiRabbitmq } from "react-icons/si";
 
 const About = () => {
     return (
@@ -37,6 +43,35 @@ const About = () => {
 
                     </p>
                 </div>
+            </div>
+            <div className='tech'>
+                <h2>Tech Stack</h2>
+                <span>
+                    <p className='icon'>
+                        <FaPython className='icon-icon' />
+                        Python
+                    </p>
+                    <p className='icon'>
+                        <FaJava className='icon-icon' />
+                        Java
+                    </p>
+                    <p className='icon'>
+                        <FaAndroid className='icon-icon' />
+                        Android
+                    </p>
+                    <p className='icon'>
+                        <IoLogoFirebase className='icon-icon' />
+                        FCM
+                    </p>
+                    <p className='icon'>
+                        <GrMysql className='icon-icon' />
+                        MySQL
+                    </p>
+                    <p className='icon'>
+                        <SiRabbitmq className='icon-icon' />
+                        RabbitMQ
+                    </p>
+                </span>
             </div>
         </div>
     )

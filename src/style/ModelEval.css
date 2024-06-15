@@ -1,0 +1,70 @@
+.model-eval {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: var(--main-font);
+    align-self: center;
+    background-color: white;
+    border: solid var(--blue);
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.model-eval h1 {
+    font-family: var(--logo-font);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    color: var(--blue);
+    text-shadow: 1px 1px 2px var(--yellow);
+    margin-bottom: 0;
+}
+
+.model-eval h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.huristic-model {
+    text-align: left;
+    margin-right: 10rem;
+}
+
+.huristic-model p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.huristic-model ul {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.model-eval table {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border-collapse: collapse;
+    border: solid var(--blue) 1px;
+}
+
+.model-eval thead {
+    font-size: 1.2rem;
+}
+
+.model-eval th,
+.model-eval td {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: solid var(--blue) 1px;
+}
+
+.focus {
+    text-shadow: 1px 1px 2px var(--yellow);
+    font-weight: 400;
+}
