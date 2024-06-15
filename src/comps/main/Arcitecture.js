@@ -112,7 +112,7 @@ const Arcitecture = () => {
                 <div className='hidden-right-ml'>
                     <p>This module leverages a fine-tuned RoBERTa model,<br/>
                     to capture the numerical,  deep semantic representation<br/>
-		    of the text of the message<br/><br/>
+		    of the text of the message.<br/><br/>
 		    This is then used to train a Neural Network to classify <br/>
 		    SMS messages based on their semantic content.
                     </p>
