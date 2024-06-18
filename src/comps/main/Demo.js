@@ -23,7 +23,8 @@ const Demo = () => {
                 <div className="content-right" id='demo-content'>
                     <h2>App Demo</h2>
                     <p>
-                        A few words about the app work-flow, maybe add a graph to go with the video.
+                        • Simplistic UI</br>
+			• Classiffies correctly a variety of different SMS</br>
                     </p>
                 </div>
             </div>
