@@ -23,8 +23,8 @@ const Demo = () => {
                 <div className="content-right" id='demo-content'>
                     <h2>App Demo</h2>
                     <p>
-                        • Simplistic UI</br>
-			• Classiffies correctly a variety of different SMS</br>
+                        • Simplistic UI<br/>
+			• Classiffies correctly a variety of different SMS<br/>
                     </p>
                 </div>
             </div>
