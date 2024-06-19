@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SmishingPoster/static/css/main.177be0fc.css",
-    "main.js": "/SmishingPoster/static/js/main.b11adbba.js",
+    "main.js": "/SmishingPoster/static/js/main.f5970126.js",
     "static/media/demo.mp4": "/SmishingPoster/static/media/demo.8d383d525517b7a020cf.mp4",
     "static/media/step-three-image.png": "/SmishingPoster/static/media/step-three-image.2589f143eb82b2f34916.png",
     "static/media/link.jpg": "/SmishingPoster/static/media/link.a219ec4fa76dbea77f11.jpg",
@@ -13,10 +13,10 @@
     "static/media/report.png": "/SmishingPoster/static/media/report.186aee937b0c9c4b0fb6.png",
     "index.html": "/SmishingPoster/index.html",
     "main.177be0fc.css.map": "/SmishingPoster/static/css/main.177be0fc.css.map",
-    "main.b11adbba.js.map": "/SmishingPoster/static/js/main.b11adbba.js.map"
+    "main.f5970126.js.map": "/SmishingPoster/static/js/main.f5970126.js.map"
   },
   "entrypoints": [
     "static/css/main.177be0fc.css",
-    "static/js/main.b11adbba.js"
+    "static/js/main.f5970126.js"
   ]
 }
